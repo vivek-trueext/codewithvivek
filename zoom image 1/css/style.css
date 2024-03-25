@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5edf3;
+}
+
+.normal-image {
+    height: 100px;
+    width: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.zoom-box {
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.361);
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.zoom-box i {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.zoom-image {
+    height: 100vh;
+    width: auto;
+    animation: opacity 0.5s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

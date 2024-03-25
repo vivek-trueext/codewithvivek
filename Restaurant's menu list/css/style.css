@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.font {
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px 0px 0px;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    transition-duration: 1s;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url("../images/backgrond.jpg"); */
+    background-color: rgb(36, 59, 59);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 350px;
+    border-radius: 200px;
+    border: 5px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.imageboxL {
+    width: 62vw;
+    background-color: #f3ae25;
+    border-radius: 0px 250px 250px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+
+
+.imageboxR {
+    width: 62vw;
+    background-color: #f3ae25;
+    border-radius: 250px 0px 0px 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.leftmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 30px 0px;
+}
+
+.rightmenu {
+    display: flex;
+    justify-content: end;
+    padding: 30px 0px;
+}
+
+ul.name,
+ul.price {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    line-height: 1.5rem;
+}
+
+ul.name {
+    min-width: 500px;
+}
+
+
+ul.name li,
+ul.price li {
+    list-style: none;
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: "Delicious Handrawn", cursive;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.leftmenu .menulist {
+    position: absolute;
+    right: 70px;
+    transform: scale(0);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.rightmenu .menulist {
+    position: absolute;
+    left: 70px;
+    transform: scale(0);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+
+
+.menulist {
+    display: flex;
+}

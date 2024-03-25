@@ -1,0 +1,23 @@
+#container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container img {
+    height: 100px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+i {
+    font-size: 2rem;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    visibility: hidden;
+    cursor: pointer;
+}

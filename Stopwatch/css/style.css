@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 5rem;
+    height: 200px;
+    width: 200px;
+    margin: 0px 10px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px steelblue;
+    border-radius: 30px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+#startButton {
+    font-size: 3rem;
+    color: green;
+}
+
+
+#resetButton {
+    font-size: 3rem;
+    color: #e10000;
+}
+
+#lapButton {
+    font-size: 3rem;
+    color: #bb3b00;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: thistle;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 5rem;
+    margin: 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+
+.laptime {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#printLaptime,
+#printlap {
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin: 5px 10px;
+
+}

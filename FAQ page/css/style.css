@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Andika", sans-serif;
+
+}
+
+body {
+    background-color: #cc9e62;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.headingContent {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 10px #37658b !important;
+
+}
+
+.headingItemBox {
+    width: 19vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.headingItemBox:hover {
+    box-shadow: 0px 0px 10px #37658b;
+    border-radius: 10px !important;
+    background-color: aliceblue !important;
+}
+
+.headText {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 5px;
+
+}
+
+.historyContainer,
+.visionContainer,
+.goalContainer {
+    animation-name: appear;
+    animation-duration: 1s;
+
+}
+
+/* .....HISTORY CONTAINER STYLE........ */
+
+
+.paragraph {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px #37658b;
+}
+
+
+.faqHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #37658b;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.faqHeading p {
+    padding-left: 10px;
+}
+
+span i {
+    padding-right: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #dd8716;
+}
+
+
+.faqContent {
+    padding: 10px;
+    display: none;
+    text-wrap: wrap;
+}
+
+.faqContent p {
+    /* animation: appear 1s; */
+    animation: slidein 1s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+        /* transform: rotate(20deg); */
+    }
+
+    25% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+        /* transform: rotate(0deg); */
+    }
+}

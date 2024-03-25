@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-box {
+    background-color: #001450;
+    padding-bottom: 60px;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.nav-box span {
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    float: inline-end;
+    padding: 0px 10px 5px 10px;
+    font-size: 14px;
+}
+
+.doc-pic-box {
+    position: relative;
+    bottom: 50px;
+    max-width: 500px;
+
+}
+
+
+.doctor img {
+    width: auto;
+    height: 250px;
+}
+
+.doctor {
+    background-color: white;
+    height: 250px;
+    /* background-image: url("/images/doc.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name-box {
+    background-color: #001c70;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name-box {
+    position: relative;
+}
+
+.name-box img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+
+
+.name-box h2,
+.name-box p {
+    color: white;
+    width: 170px;
+    position: relative;
+    top: 70px;
+    letter-spacing: 2px;
+}
+
+
+.name-box i {
+    color: white;
+    padding: 0rem 2rem 1rem 0rem;
+    font-size: 3rem;
+}
+
+.save-contact a {
+    border: 1px solid #000e38;
+    color: #000e38;
+    border-radius: 0.5rem;
+    padding: 5px 40px;
+}
+
+.exchange-contact a {
+    color: white;
+    background-color: #000e38;
+    border-radius: 0.5rem;
+    padding: 5px 25px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-list li a {
+    padding: 8px;
+    background-color: rgba(187, 185, 185, 0.3);
+    border-radius: 10px;
+
+
+}
+
+.contact-list li i {
+    float: inline-start;
+    color: #acacac;
+
+
+}
+
+.contact-list span:nth-child(2) {
+    font-weight: 600;
+
+}
+
+.contact-list span:last-child {
+    float: inline-end;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 88%;
+    position: relative;
+    left: 3rem;
+}
+
+@media only screen and (max-width:380px) {
+    .doctor {
+        height: 200px;
+    }
+
+    .doc-pic-box {
+        height: 200px;
+    }
+
+    .doctor img {
+        width: auto;
+        height: 200px;
+    }
+
+    .name-box h2 {
+        color: white;
+        width: 140px;
+        position: relative;
+        top: 40px;
+        letter-spacing: 0;
+    }
+
+    .name-box p {
+        color: white;
+        width: 140px;
+        position: relative;
+        top: 30px;
+        letter-spacing: 0;
+    }
+
+    .name-box img {
+        height: 50px;
+    }
+
+    .save-contact a {
+        border: 1px solid #000e38;
+        color: #000e38;
+        border-radius: 0.5rem;
+        text-align: center;
+        margin: 2px;
+        padding: 3px 25px 4px 25px;
+    }
+
+    .exchange-contact a {
+        color: white;
+        background-color: #000e38;
+        border-radius: 0.5rem;
+        text-align: center;
+        margin: 2px;
+        padding: 3px 8px 4px 8px;
+    }
+
+    hr {
+        width: 85%;
+    }
+}

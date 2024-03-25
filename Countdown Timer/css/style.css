@@ -1,0 +1,70 @@
+body {
+    background-color: #c6fffc;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+div.inputArea {
+    text-align: center;
+    font-size: larger;
+}
+
+input#userInput {
+    font-size: 25px;
+    width: 270px;
+    height: 40px;
+
+}
+
+.inputArea label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.timerScreen {
+    height: 400px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c0b300ad;
+    border-radius: 5rem;
+}
+
+.timerScreen p {
+    margin: 20px 0px;
+}
+
+.box {
+    font-size: 5rem;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6fffc;
+    color: #007575;
+    box-shadow: 2px 2px 5px #474629;
+    margin-inline: 10px;
+    border-radius: 20px;
+}
