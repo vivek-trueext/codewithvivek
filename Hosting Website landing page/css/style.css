@@ -1,0 +1,103 @@
+.nav-style {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(131, 131, 131, 0.5);
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #15872d;
+}
+
+footer p {
+    margin-bottom: 8px;
+
+}
+
+.section-1 {
+    padding-bottom: 50px;
+    margin-top: 82px;
+}
+
+.section1img {
+    background-color: rgb(85, 107, 47, 0.3);
+    border-radius: 200px;
+    box-shadow: -10px 0px 50px rgb(114, 114, 114);
+}
+
+.section-2,
+.section-3,
+.section-4,
+.section-6,
+.section-9 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-4 {
+    background-color: #15872d;
+    color: white;
+}
+
+.card-section img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.section-6 {
+    background-color: #15872d;
+    padding: 50px 0px;
+}
+
+.faq-list li {
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.paymentlogo i {
+    font-size: 3rem;
+}
+
+.contactus i {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.plan-cards:hover {
+    box-shadow: 0px 0px 5px black;
+    transform: translate(0, -10px);
+    transition: transform 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+@media screen and (max-width:725px) {
+
+    img.sectionimg {
+        width: 250px;
+        height: 250px;
+    }
+}
